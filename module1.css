@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+    /* background-color: rgb(67, 116, 136);*/
+  } 
+
+
+nav{
+    background: white;
+    height: 80px;
+    width: 100%;
+  }
+
+
+label.logo{
+    color: whitblacke;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+ 
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+
+a.active,a:hover{
+    background-color: rgb(67, 116, 136);
+    transition: .5s;
+    color: white;
+}
+.main{
+    position: absolute;
+    height: 550px;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+
+}
+.heading{
+    color: black;
+    text-align: center;
+}
+
+.left{
+    position: absolute;
+    width: 20%;
+    height: 280xpx;
+    margin-top: 80px;
+    margin-left: 220px;
+  
+
+}
+.upload{
+   
+    margin-top: 10px;
+    height: 220px;
+    border: none;
+}
+.blank{
+   
+    margin-top: 10px;
+    height: 220px;
+    background-color: white;
+    width: 335px;
+}
+
+
+input[type="submit"]{
+
+    padding: 20px;
+    border-radius: 6px;
+    position: absolute;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 590px;
+    border: none;
+   
+}
+
+.right{
+    position: absolute;
+    width: 25%;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 820px;
+}
+input[type="button"]{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(67, 116, 136);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.copytext{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+
+.footer{
+    height: 200px;
+    border: 1px solid green;
+    background-color: rgb(67, 116, 136);
+    width: 100%;
+    position: absolute;
+    margin-top:550px;
+  }
+  
+  h1{
+    color: white;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  .contact{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+    width: 20%;
+    position: absolute;
+  }
+  .address{
+    margin-top: 20px;
+    margin-left: 500px;
+    position: absolute;
+    color: white;
+    width: 20%;
+  }
+  
+  .about{
+    margin-top: 20px;
+    margin-left: 1000px;
+    color: white;
+    width: 20%;
+  }
